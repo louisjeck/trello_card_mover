@@ -1,0 +1,27 @@
+{
+  "name": "Card Mover",
+  "details":"The Checklist Template Power-Up allows you to assign checlists templates to cards and board",
+  "icon": {
+    "url": "https://cdn.glitch.com/9aebe639-1af4-4ed8-9467-a054ae8cdf2b%2FPonctuation%20OK_pos.png?1500644522612"
+  },
+  "author": "Trello Inc",
+  "capabilities": [
+    "authorization-status",
+    "attachment-sections",
+    "attachment-thumbnail",
+    "board-buttons",
+    "callback",
+    "card-badges",
+    "card-buttons",
+    "card-detail-badges",
+    "card-from-url",
+    "format-url",
+    "show-authorization",
+    "show-settings"
+  ],
+  "connectors": {
+    "iframe": {
+      "url": "./index.html"
+    }
+  }
+}
